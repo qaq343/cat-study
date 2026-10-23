@@ -1,0 +1,12 @@
+{
+  "name": "cat-study",
+  "version": "1.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python -m http.server 4173",
+    "test": "node tests/app.test.mjs && node tests/navigation.test.mjs && node tests/practice.test.mjs && node tests/learning-records.test.mjs && node tests/completion.test.mjs && node tests/catalog.test.mjs",
+    "desktop:dev": "cargo tauri dev",
+    "desktop:build": "cargo tauri build"
+  }
+}

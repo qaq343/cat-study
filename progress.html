@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>进度详情 · 小猫学习进度</title>
+  <link rel="stylesheet" href="./css/style.css?v=20261014-records">
+  <link rel="stylesheet" href="./css/planner.css?v=20261013">
+</head>
+<body class="detail-body">
+  <main class="detail-shell">
+    <header class="topbar detail-topbar">
+      <span class="page-label">进度详情</span>
+      <div class="top-actions"><button id="settingsButton" class="quiet-button">设置</button><a class="quiet-link" href="./index.html">返回主页</a></div>
+    </header>
+
+    <section class="detail-intro">
+      <div><p class="eyebrow">进度详情</p><h1>学到这里</h1><p id="currentPath" class="current-path"></p></div>
+      <div class="percent-ring" id="percentRing"><strong>0%</strong><span>正式必修</span></div>
+    </section>
+
+    <section class="metric-row" aria-label="学习数据">
+      <article><span>正式必修</span><strong id="totalLessons">0</strong><small>阶段 1–9</small></article>
+      <article><span>已经完成</span><strong id="completedLessons">0</strong><small>课节</small></article>
+      <article><span>还剩</span><strong id="remainingLessons">0</strong><small>课节</small></article>
+      <article><span>最近 7 天</span><strong id="recentRate">0</strong><small>节 / 天</small></article>
+    </section>
+
+    <section class="detail-grid">
+      <article class="panel predictions-panel"><div class="panel-heading"><div><p class="eyebrow">按三种节奏</p><h2>预计结课时间</h2></div></div><div id="predictions" class="prediction-list"></div></article>
+      <article class="panel history-panel"><div class="panel-heading"><div><p class="eyebrow">课程与练习</p><h2>学习足迹</h2></div><button id="allHistoryButton" class="quiet-button" type="button">查看全部</button></div><p id="totalLearningTime" class="learning-time-total"></p><div id="historyList" class="history-list"></div></article>
+    </section>
+
+    <section class="panel tree-panel">
+      <div class="panel-heading"><div><p class="eyebrow">阶段 → 章节 → 课节</p><h2>课程树</h2></div><span class="legend">✓ 已完成　▶ 当前　○ 未完成</span></div>
+      <div id="courseTree" class="course-tree"></div>
+    </section>
+  </main>
+
+  <dialog id="settingsDialog" class="settings-dialog">
+    <form method="dialog" class="dialog-head"><div><p class="eyebrow">偏好与数据</p><h2>设置</h2></div><button value="close" aria-label="关闭">×</button></form>
+    <div class="settings-list">
+      <label><span>每日最低目标</span><input id="dailyGoal" type="number" min="1" max="50"><small>修改后仅更新今天和未来，过去记录不变。</small></label>
+      <label class="switch-row"><span>敲击音效</span><input id="soundEnabled" type="checkbox"></label>
+      <label><span>音量</span><input id="volume" type="range" min="0" max="1" step="0.05"></label>
+      <label class="switch-row"><span>侧边小猫互动</span><input id="sideCatEnabled" type="checkbox"></label>
+      <label class="switch-row"><span>鼓励文案</span><input id="encouragementEnabled" type="checkbox"></label>
+    </div>
+    <div class="data-actions"><button id="exportButton" type="button">导出数据</button><label class="file-button">导入数据<input id="importInput" type="file" accept="application/json"></label><button id="resetButton" class="danger-button" type="button">重置学习记录</button></div>
+  </dialog>
+  <dialog id="historyDialog" class="settings-dialog"><form method="dialog" class="dialog-head"><div><p class="eyebrow">完整记录</p><h2>全部学习足迹</h2></div><button value="close" aria-label="关闭">×</button></form><div id="allHistoryList" class="history-list" style="padding:0 26px 26px"></div></dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script type="module" src="./js/progress-page.js?v=20261015-simple"></script>
+</body>
+</html>

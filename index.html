@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f0e5">
+  <title>小猫学习进度</title>
+  <link rel="stylesheet" href="./css/style.css?v=20261014-records">
+  <link rel="stylesheet" href="./css/planner.css?v=20261013">
+  <link rel="stylesheet" href="./css/home.css?v=20261015-simple">
+</head>
+<body>
+  <main id="home" class="home-shell">
+    <header class="topbar">
+      <span class="home-title">小猫学习进度</span>
+      <div class="top-actions">
+        <span id="todayLabel" class="date-label"></span>
+        <a class="quiet-link" href="./progress.html">进度详情 <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <section class="daily-strip" aria-label="今日学习记录">
+      <div class="progress-copy"><span>今日完成</span><strong id="todayCount">0 节</strong></div>
+      <span id="todayStudyTime" class="today-study-time">已记录 0 分钟</span>
+      <button id="finishDayButton" class="finish-day-button" type="button" title="结束今天学习" aria-label="结束今天学习">✓</button>
+    </section>
+
+    <section class="hero" aria-label="学习与木鱼">
+      <div class="hero-art" aria-hidden="true">
+        <img class="hero-background" src="./assets/images/hero-background.png?v=2" alt="">
+        <img class="muyu-layer" src="./assets/images/muyu-layer.png?v=2" alt="">
+        <img class="fish-stick-layer" src="./assets/images/fish-stick-layer.png?v=2" alt="">
+        <span class="contact-lines"><i></i><i></i><i></i></span>
+      </div>
+      <button id="muyuButton" class="muyu-hotspot" aria-label="敲木鱼，完成本节学习" disabled></button>
+      <div id="encouragements" class="encouragement-layer" aria-live="polite"></div>
+      <div id="celebrationTimer" class="celebration-timer" hidden><strong>20</strong><span>秒庆祝时间</span></div>
+    </section>
+    <section class="study-desk" aria-label="学习计时">
+      <div class="desk-tabs" role="tablist" aria-label="计时类型">
+        <button id="courseTab" role="tab" aria-selected="true" aria-controls="courseTimerPanel">课程学习</button>
+        <button id="practiceTab" role="tab" aria-selected="false" aria-controls="practiceTimerPanel">代码 / 做题</button>
+        <span id="practiceTodayLabel">今日练习 0 分钟</span>
+      </div>
+      <div id="courseTimerPanel" role="tabpanel" aria-labelledby="courseTab">
+        <div class="desk-title-row"><div class="course-title-group"><p id="currentCourseTitle" class="desk-title"></p><button id="courseImportance" type="button" class="course-priority" title="查看本节要求"></button></div><button id="skipLessonButton" class="quiet-button" type="button">跳过本节 →</button></div>
+        <p id="lessonPolicy" class="lesson-policy"></p>
+        <div class="desk-controls"><div class="desk-clock"><strong id="courseClock">00:00:00</strong><span id="courseStatus">未开始</span></div><div><button id="coursePauseButton" class="quiet-button" disabled>暂停</button><button id="startButton" class="primary-button">开始学习</button></div></div>
+      </div>
+      <div id="practiceTimerPanel" role="tabpanel" aria-labelledby="practiceTab" hidden>
+        <label class="practice-title-label" for="practiceTitle">练习内容</label><input id="practiceTitle" class="practice-title" maxlength="120" placeholder="例如：Python 分组统计 / SQL 练习">
+        <div class="desk-controls"><div class="desk-clock"><strong id="practiceClock">00:00:00</strong><span id="practiceStatus">未开始</span></div><div><button id="practicePauseButton" class="quiet-button" disabled>暂停</button><button id="practiceStartButton" class="primary-button">开始练习</button><button id="practiceFinishButton" class="quiet-button" disabled>结束</button></div></div>
+        <div class="desk-footnote"><span>独立记录时长，不增加课程节数</span><button id="practiceHistoryButton" class="quiet-button">练习记录</button></div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="practiceHistoryDialog" class="settings-dialog"><form method="dialog" class="dialog-head"><h2>练习记录</h2><button aria-label="关闭">×</button></form><div id="practiceHistoryContent" class="practice-history"></div><div class="data-actions"><button id="practiceExportButton" type="button">导出练习记录</button></div></dialog>
+
+  <section id="companionMode" class="companion-mode" hidden aria-label="安静陪伴模式">
+    <button id="returnButton" class="return-button">返回敲木鱼</button>
+    <button id="peekCat" class="peek-cat" aria-label="轻轻碰一下小猫">
+      <img src="./assets/images/cat-peek.png?v=3" alt="从页面右侧安静探出一小部分脸的小花猫">
+    </button>
+  </section>
+
+  <dialog id="todaySummaryDialog" class="today-summary-dialog">
+    <form method="dialog" class="dialog-head"><div><p class="eyebrow">今日学习</p><h2>今天辛苦啦</h2></div><button value="close" aria-label="关闭">×</button></form>
+    <div id="todaySummary" class="today-summary"></div>
+    <div class="today-summary-actions"><button id="closeTodaySummary" class="quiet-button" type="button">结束今天</button></div>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script type="module" src="./js/app.js?v=20261015-simple"></script>
+</body>
+</html>

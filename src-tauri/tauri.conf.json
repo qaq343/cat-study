@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "小猫学习进度",
+  "version": "1.5.0",
+  "identifier": "com.qaq.catstudy",
+  "build": {
+    "beforeDevCommand": "powershell -ExecutionPolicy Bypass -File scripts/prepare-dist.ps1",
+    "beforeBuildCommand": "powershell -ExecutionPolicy Bypass -File scripts/prepare-dist.ps1",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "main",
+        "title": "小猫学习进度",
+        "url": "index.html",
+        "width": 720,
+        "height": 690,
+        "minWidth": 660,
+        "minHeight": 650,
+        "center": true
+      },
+      {
+        "label": "companion",
+        "title": "陪伴小猫",
+        "url": "companion.html",
+        "width": 105,
+        "height": 110,
+        "resizable": false,
+        "decorations": false,
+        "transparent": true,
+        "shadow": false,
+        "alwaysOnTop": true,
+        "skipTaskbar": true,
+        "visible": false,
+        "focus": false
+      }
+    ],
+    "security": { "csp": null }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "icon": ["icons/16x16.png", "icons/24x24.png", "icons/32x32.png", "icons/48x48.png", "icons/64x64.png", "icons/128x128.png", "icons/256x256.png", "icons/icon.ico"],
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "startMenuFolder": "小猫学习进度",
+        "installerHooks": "./windows/hooks.nsh"
+      }
+    }
+  }
+}

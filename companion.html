@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>陪伴小猫</title>
+  <link rel="stylesheet" href="./css/companion.css">
+</head>
+<body>
+  <div id="controls" class="companion-controls" aria-label="学习控制">
+    <button id="sessionControl" type="button" aria-label="暂停学习">⏸</button>
+    <button id="restoreMain" type="button" aria-label="返回主窗口">↗</button>
+  </div>
+  <button id="cat" class="cat" aria-label="单击互动，双击返回主页">
+    <img id="catImage" src="./assets/images/companion/cat-idle-v12.png" alt="从屏幕右侧探头的小花猫" draggable="false">
+  </button>
+  <script type="module" src="./js/companion.js"></script>
+</body>
+</html>

@@ -1,0 +1,2842 @@
+[
+    {
+        "stageId":  0,
+        "stageName":  "大模型基础入门",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "人工智能行业发展",
+                             "lessonCount":  1,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "大模型行业发展"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "办公软件",
+                             "lessonCount":  4,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "办公软件-Word"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "办公软件-Excel表格"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "办公软件-PPT"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "课件资料-办公软件"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "学习方法和学习辅助工具",
+                             "lessonCount":  2,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "学习方法和学习辅助工具"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "课件资料-学习方法和学习辅助工具"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  4,
+                             "chapterName":  "大模型应用工具实战",
+                             "lessonCount":  17,
+                             "lessons":  [
+                                             {
+                                                 "id":  "4.1",
+                                                 "name":  "通义系列大模型-通义千问"
+                                             },
+                                             {
+                                                 "id":  "4.2",
+                                                 "name":  "通义系列大模型一通义万相"
+                                             },
+                                             {
+                                                 "id":  "4.3",
+                                                 "name":  "通义系列大模型一通义效率"
+                                             },
+                                             {
+                                                 "id":  "4.4",
+                                                 "name":  "通义系列大模型一通义听悟"
+                                             },
+                                             {
+                                                 "id":  "4.5",
+                                                 "name":  "通义系列大模型-通义法睿"
+                                             },
+                                             {
+                                                 "id":  "4.6",
+                                                 "name":  "通义系列大模型-通义灵码"
+                                             },
+                                             {
+                                                 "id":  "4.7",
+                                                 "name":  "通义系列大模型其他应用模型"
+                                             },
+                                             {
+                                                 "id":  "4.8",
+                                                 "name":  "科大讯飞系列大模型一讯飞星火大模型"
+                                             },
+                                             {
+                                                 "id":  "4.9",
+                                                 "name":  "科大讯飞系列大模型-讯飞智文"
+                                             },
+                                             {
+                                                 "id":  "4.10",
+                                                 "name":  "科大讯飞系列大模型一讯飞绘文"
+                                             },
+                                             {
+                                                 "id":  "4.11",
+                                                 "name":  "科大讯飞系列大模型-讯飞文档问答"
+                                             },
+                                             {
+                                                 "id":  "4.12",
+                                                 "name":  "科大讯飞系列大模型-iFlyCode"
+                                             },
+                                             {
+                                                 "id":  "4.13",
+                                                 "name":  "deepseek、文心一言、kimi、智谱清言"
+                                             },
+                                             {
+                                                 "id":  "4.14",
+                                                 "name":  "腾讯元宝、豆包、MiniMax、阶跃星辰"
+                                             },
+                                             {
+                                                 "id":  "4.15",
+                                                 "name":  "LibLibA1、堆友、可灵Al"
+                                             },
+                                             {
+                                                 "id":  "4.16",
+                                                 "name":  "百度智能云曦灵"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  1,
+        "stageName":  "大模型语言基础",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "大模型语言基础",
+                             "lessonCount":  29,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "初识python"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "输入输出和变量"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "数据类型"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "数据类型的转换"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "算术运算符"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "赋值和逻辑运算符"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "格式化输出"
+                                             },
+                                             {
+                                                 "id":  "1.8",
+                                                 "name":  "if语句"
+                                             },
+                                             {
+                                                 "id":  "1.9",
+                                                 "name":  "for循环"
+                                             },
+                                             {
+                                                 "id":  "1.10",
+                                                 "name":  "while循环"
+                                             },
+                                             {
+                                                 "id":  "1.11",
+                                                 "name":  "列表"
+                                             },
+                                             {
+                                                 "id":  "1.12",
+                                                 "name":  "元组"
+                                             },
+                                             {
+                                                 "id":  "1.13",
+                                                 "name":  "字符串的方法"
+                                             },
+                                             {
+                                                 "id":  "1.14",
+                                                 "name":  "字典"
+                                             },
+                                             {
+                                                 "id":  "1.15",
+                                                 "name":  "集合"
+                                             },
+                                             {
+                                                 "id":  "1.16",
+                                                 "name":  "随机数"
+                                             },
+                                             {
+                                                 "id":  "1.17",
+                                                 "name":  "正则"
+                                             },
+                                             {
+                                                 "id":  "1.18",
+                                                 "name":  "正则2"
+                                             },
+                                             {
+                                                 "id":  "1.19",
+                                                 "name":  "正则3"
+                                             },
+                                             {
+                                                 "id":  "1.20",
+                                                 "name":  "函数"
+                                             },
+                                             {
+                                                 "id":  "1.21",
+                                                 "name":  "文件管理"
+                                             },
+                                             {
+                                                 "id":  "1.22",
+                                                 "name":  "序列化和反序列化"
+                                             },
+                                             {
+                                                 "id":  "1.23",
+                                                 "name":  "异常处理"
+                                             },
+                                             {
+                                                 "id":  "1.24",
+                                                 "name":  "迭代器和生成器"
+                                             },
+                                             {
+                                                 "id":  "1.25",
+                                                 "name":  "闭包和装饰器"
+                                             },
+                                             {
+                                                 "id":  "1.26",
+                                                 "name":  "类"
+                                             },
+                                             {
+                                                 "id":  "1.27",
+                                                 "name":  "类_继承"
+                                             },
+                                             {
+                                                 "id":  "1.28",
+                                                 "name":  "类_多态"
+                                             },
+                                             {
+                                                 "id":  "1.29",
+                                                 "name":  "类_封装"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  2,
+        "stageName":  "大模型语言进阶",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "大模型语言进阶",
+                             "lessonCount":  16,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "网络编程三要素"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "tcp编程"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "多任务编程"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "多进程编码"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "多进程编程"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "多线程"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "线程调度、线程同步"
+                                             },
+                                             {
+                                                 "id":  "1.8",
+                                                 "name":  "协程"
+                                             },
+                                             {
+                                                 "id":  "1.9",
+                                                 "name":  "数据结构-时间复杂度"
+                                             },
+                                             {
+                                                 "id":  "1.10",
+                                                 "name":  "数据结构-顺序表"
+                                             },
+                                             {
+                                                 "id":  "1.11",
+                                                 "name":  "链表"
+                                             },
+                                             {
+                                                 "id":  "1.12",
+                                                 "name":  "链表-增删改查-1"
+                                             },
+                                             {
+                                                 "id":  "1.13",
+                                                 "name":  "链表-增删改查-2"
+                                             },
+                                             {
+                                                 "id":  "1.14",
+                                                 "name":  "链表-增删改查-3"
+                                             },
+                                             {
+                                                 "id":  "1.15",
+                                                 "name":  "冒泡、选择、插入排序"
+                                             },
+                                             {
+                                                 "id":  "1.16",
+                                                 "name":  "快速、二分查找排序"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  3,
+        "stageName":  "数据分析与处理",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "数据分析与处理",
+                             "lessonCount":  16,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "数据分析-概述"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "numpy-ndarray"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "numpy-运算"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "广播机制"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "pandas-数据结构"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "pandas-常用属性"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "pandas-分组聚合"
+                                             },
+                                             {
+                                                 "id":  "1.8",
+                                                 "name":  "pandas-租房数据练习"
+                                             },
+                                             {
+                                                 "id":  "1.9",
+                                                 "name":  "pandas-concat连接"
+                                             },
+                                             {
+                                                 "id":  "1.10",
+                                                 "name":  "pandas-merge连接"
+                                             },
+                                             {
+                                                 "id":  "1.11",
+                                                 "name":  "pandas-缺失值"
+                                             },
+                                             {
+                                                 "id":  "1.12",
+                                                 "name":  "pandas-apply函数"
+                                             },
+                                             {
+                                                 "id":  "1.13",
+                                                 "name":  "pandas-时间类型"
+                                             },
+                                             {
+                                                 "id":  "1.14",
+                                                 "name":  "可视化-matplotlib"
+                                             },
+                                             {
+                                                 "id":  "1.15",
+                                                 "name":  "可视化-pandas"
+                                             },
+                                             {
+                                                 "id":  "1.16",
+                                                 "name":  "可视化-seaborn"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  4,
+        "stageName":  "Linux与数据库",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "Linux基础指令",
+                             "lessonCount":  14,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "Linux的介绍与安装"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "Linux远程连接"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "Linux文件系统"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "Linux系统部署与网络调试"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "Linux基础命令-基础操作"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "Linux基础命令-用户管理"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "Linux基础命令-文件管理"
+                                             },
+                                             {
+                                                 "id":  "1.8",
+                                                 "name":  "Linux基础命令-文本编辑"
+                                             },
+                                             {
+                                                 "id":  "1.9",
+                                                 "name":  "Linux高级命令-网络管理"
+                                             },
+                                             {
+                                                 "id":  "1.10",
+                                                 "name":  "Linux高级命令-进程管理"
+                                             },
+                                             {
+                                                 "id":  "1.11",
+                                                 "name":  "Linux高级命令-磁盘管理"
+                                             },
+                                             {
+                                                 "id":  "1.12",
+                                                 "name":  "Linux防火墙配置-FireWall"
+                                             },
+                                             {
+                                                 "id":  "1.13",
+                                                 "name":  "Linux防火墙配置-iptables"
+                                             },
+                                             {
+                                                 "id":  "1.14",
+                                                 "name":  "Linux内核"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "计算机网络",
+                             "lessonCount":  21,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "三次握手和四次挥手"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "进制转换"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "ASCII"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "网络层"
+                                             },
+                                             {
+                                                 "id":  "2.5",
+                                                 "name":  "数据链路层"
+                                             },
+                                             {
+                                                 "id":  "2.6",
+                                                 "name":  "虚拟机上网模式"
+                                             },
+                                             {
+                                                 "id":  "2.7",
+                                                 "name":  "信息传递"
+                                             },
+                                             {
+                                                 "id":  "2.8",
+                                                 "name":  "物理层"
+                                             },
+                                             {
+                                                 "id":  "2.9",
+                                                 "name":  "MAC地址"
+                                             },
+                                             {
+                                                 "id":  "2.10",
+                                                 "name":  "OSI模型"
+                                             },
+                                             {
+                                                 "id":  "2.11",
+                                                 "name":  "IP地址（一）"
+                                             },
+                                             {
+                                                 "id":  "2.12",
+                                                 "name":  "TCPIP模型"
+                                             },
+                                             {
+                                                 "id":  "2.13",
+                                                 "name":  "IP地址（二）"
+                                             },
+                                             {
+                                                 "id":  "2.14",
+                                                 "name":  "应用层"
+                                             },
+                                             {
+                                                 "id":  "2.15",
+                                                 "name":  "子网划分"
+                                             },
+                                             {
+                                                 "id":  "2.16",
+                                                 "name":  "计算机端口号"
+                                             },
+                                             {
+                                                 "id":  "2.17",
+                                                 "name":  "NAT"
+                                             },
+                                             {
+                                                 "id":  "2.18",
+                                                 "name":  "传输层"
+                                             },
+                                             {
+                                                 "id":  "2.19",
+                                                 "name":  "HTTP和HTTPS(一)"
+                                             },
+                                             {
+                                                 "id":  "2.20",
+                                                 "name":  "HTTP和HTTPS(二)"
+                                             },
+                                             {
+                                                 "id":  "2.21",
+                                                 "name":  "DNS和域名"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "MySQL数据库",
+                             "lessonCount":  6,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "mysql安装"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "mysql操作-创建、添加"
+                                             },
+                                             {
+                                                 "id":  "3.3",
+                                                 "name":  "mysql操作-查询"
+                                             },
+                                             {
+                                                 "id":  "3.4",
+                                                 "name":  "mysql操作更新、删除、排序"
+                                             },
+                                             {
+                                                 "id":  "3.5",
+                                                 "name":  "mysql操作高级查询、聚合、表关联"
+                                             },
+                                             {
+                                                 "id":  "3.6",
+                                                 "name":  "python连接mysql"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  4,
+                             "chapterName":  "redis数据库",
+                             "lessonCount":  3,
+                             "lessons":  [
+                                             {
+                                                 "id":  "4.1",
+                                                 "name":  "redis-安装连接"
+                                             },
+                                             {
+                                                 "id":  "4.2",
+                                                 "name":  "redis-数据结构"
+                                             },
+                                             {
+                                                 "id":  "4.3",
+                                                 "name":  "redis-集合"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  5,
+                             "chapterName":  "MongoDB数据库",
+                             "lessonCount":  3,
+                             "lessons":  [
+                                             {
+                                                 "id":  "5.1",
+                                                 "name":  "MongoDB-安装与介绍"
+                                             },
+                                             {
+                                                 "id":  "5.2",
+                                                 "name":  "操作数据库1"
+                                             },
+                                             {
+                                                 "id":  "5.3",
+                                                 "name":  "操作数据2"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  5,
+        "stageName":  "Web高并发异步框架与爬虫",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "flask框架",
+                             "lessonCount":  18,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "flask-flask入门"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "flask-路径参数"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "flask-查询参数"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "flask-文件上传"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "flask-url_for和响应内容"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "flask-模板"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "flask-模板url_for"
+                                             },
+                                             {
+                                                 "id":  "1.8",
+                                                 "name":  "flask-过滤器"
+                                             },
+                                             {
+                                                 "id":  "1.9",
+                                                 "name":  "flask-流程控制"
+                                             },
+                                             {
+                                                 "id":  "1.10",
+                                                 "name":  "flask-set和with"
+                                             },
+                                             {
+                                                 "id":  "1.11",
+                                                 "name":  "flask-继承"
+                                             },
+                                             {
+                                                 "id":  "1.12",
+                                                 "name":  "flask-类视图"
+                                             },
+                                             {
+                                                 "id":  "1.13",
+                                                 "name":  "flask-蓝图"
+                                             },
+                                             {
+                                                 "id":  "1.14",
+                                                 "name":  "flask-表单"
+                                             },
+                                             {
+                                                 "id":  "1.15",
+                                                 "name":  "flask-表单验证"
+                                             },
+                                             {
+                                                 "id":  "1.16",
+                                                 "name":  "数据库-sqlalchemy使用"
+                                             },
+                                             {
+                                                 "id":  "1.17",
+                                                 "name":  "数据库-ORM映射"
+                                             },
+                                             {
+                                                 "id":  "1.18",
+                                                 "name":  "数据库-操作"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "fastAPI异步框架",
+                             "lessonCount":  6,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "fastapi-创建"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "fastapi-路由分发"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "fastapi-请求与响应"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "fastapi-请求体"
+                                             },
+                                             {
+                                                 "id":  "2.5",
+                                                 "name":  "fastapi-表单"
+                                             },
+                                             {
+                                                 "id":  "2.6",
+                                                 "name":  "fastapi-中间件"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "爬虫",
+                             "lessonCount":  7,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "爬虫-requests请求"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "爬虫-aiohttp异步请求"
+                                             },
+                                             {
+                                                 "id":  "3.3",
+                                                 "name":  "爬虫-请求对比"
+                                             },
+                                             {
+                                                 "id":  "3.4",
+                                                 "name":  "爬虫-xpath"
+                                             },
+                                             {
+                                                 "id":  "3.5",
+                                                 "name":  "爬虫-bs4"
+                                             },
+                                             {
+                                                 "id":  "3.6",
+                                                 "name":  "爬虫-正则"
+                                             },
+                                             {
+                                                 "id":  "3.7",
+                                                 "name":  "爬虫-自动化"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  6,
+        "stageName":  "运维部署与中间件",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "Rabbitmq",
+                             "lessonCount":  7,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "rabbitmq-安装"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "rabbitmq-生产者消费者"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "rabbitmq-持久化"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "rabbitmq-订阅和发布"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "rabbitmq-关键字"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "rabbitma-模糊匹配"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "rabbitmq-RPC"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "Docker",
+                             "lessonCount":  5,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "初识docker"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "Docker容器数据卷"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "Docker应用部署"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "Dockerfile"
+                                             },
+                                             {
+                                                 "id":  "2.5",
+                                                 "name":  "Docker-compose"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "Git",
+                             "lessonCount":  3,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "git使用"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "git分支"
+                                             },
+                                             {
+                                                 "id":  "3.3",
+                                                 "name":  "git远程仓"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  4,
+                             "chapterName":  "Nnginx",
+                             "lessonCount":  2,
+                             "lessons":  [
+                                             {
+                                                 "id":  "4.1",
+                                                 "name":  "nginx安装"
+                                             },
+                                             {
+                                                 "id":  "4.2",
+                                                 "name":  "nginx案例"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  5,
+                             "chapterName":  "flask实战项目",
+                             "lessonCount":  1,
+                             "lessons":  [
+                                             {
+                                                 "id":  "5.1",
+                                                 "name":  "flask智能图像识别实战项目"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  7,
+        "stageName":  "机器学习",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "初识机器学习",
+                             "lessonCount":  10,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "机器学习概述内容简介"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "AI、ML、DL介绍及两种学习方式"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "人工智能大模型发展历史"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "常见术语和数据集划分"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "有监督学习：分类与回归"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "无监督学习、半监督学习、强化学习"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "机器学习的建模流程"
+                                             },
+                                             {
+                                                 "id":  "1.8",
+                                                 "name":  "特征工程简介及主要方法"
+                                             },
+                                             {
+                                                 "id":  "1.9",
+                                                 "name":  "模型拟合问题—欠拟合过拟合"
+                                             },
+                                             {
+                                                 "id":  "1.10",
+                                                 "name":  "机器学习开发库-sklearn"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "K近邻算法",
+                             "lessonCount":  12,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "KNN算法内容简介"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "KNN算法的思想"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "KNN应用方式与超参数K值选择"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "KNN分类与回归API"
+                                             },
+                                             {
+                                                 "id":  "2.5",
+                                                 "name":  "种距离度量方式"
+                                             },
+                                             {
+                                                 "id":  "2.6",
+                                                 "name":  "数据预处理之归一化、标准化"
+                                             },
+                                             {
+                                                 "id":  "2.7",
+                                                 "name":  "KNN鸢尾花分类-数据准备与可视化"
+                                             },
+                                             {
+                                                 "id":  "2.8",
+                                                 "name":  "KNN鸢尾花分类-特征工程与建模"
+                                             },
+                                             {
+                                                 "id":  "2.9",
+                                                 "name":  "KNN鸢尾花分类-模型评估与预测"
+                                             },
+                                             {
+                                                 "id":  "2.10",
+                                                 "name":  "交叉验证与网格搜素"
+                                             },
+                                             {
+                                                 "id":  "2.11",
+                                                 "name":  "KNN实现手写数字识别-图片展示"
+                                             },
+                                             {
+                                                 "id":  "2.12",
+                                                 "name":  "KNN实现手写数字识别-模型加载与保存"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "线性回归",
+                             "lessonCount":  20,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "线性回归知识点介绍"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "线性回归定义、分类与应用场景"
+                                             },
+                                             {
+                                                 "id":  "3.3",
+                                                 "name":  "线性回归API的使用"
+                                             },
+                                             {
+                                                 "id":  "3.4",
+                                                 "name":  "线性回归的思想及损失函数"
+                                             },
+                                             {
+                                                 "id":  "3.5",
+                                                 "name":  "导数的公式及偏导计算"
+                                             },
+                                             {
+                                                 "id":  "3.6",
+                                                 "name":  "向量与矩阵的计算和性质"
+                                             },
+                                             {
+                                                 "id":  "3.7",
+                                                 "name":  "一元线性回归的解析"
+                                             },
+                                             {
+                                                 "id":  "3.8",
+                                                 "name":  "多元线性回归的解析-正规方程法"
+                                             },
+                                             {
+                                                 "id":  "3.9",
+                                                 "name":  "梯度下降算法的思想"
+                                             },
+                                             {
+                                                 "id":  "3.10",
+                                                 "name":  "单变量梯度下降举例"
+                                             },
+                                             {
+                                                 "id":  "3.11",
+                                                 "name":  "多变量梯度下降举例及总结"
+                                             },
+                                             {
+                                                 "id":  "3.12",
+                                                 "name":  "银行信贷案例"
+                                             },
+                                             {
+                                                 "id":  "3.13",
+                                                 "name":  "梯度下降算法的分类"
+                                             },
+                                             {
+                                                 "id":  "3.14",
+                                                 "name":  "梯度下降算法与正规方程对比"
+                                             },
+                                             {
+                                                 "id":  "3.15",
+                                                 "name":  "回归模型评估方法分类"
+                                             },
+                                             {
+                                                 "id":  "3.16",
+                                                 "name":  "波士顿房价预测—案例分析"
+                                             },
+                                             {
+                                                 "id":  "3.17",
+                                                 "name":  "波士顿房价预测—代码实现"
+                                             },
+                                             {
+                                                 "id":  "3.18",
+                                                 "name":  "欠拟合和过拟合代码层面理解"
+                                             },
+                                             {
+                                                 "id":  "3.19",
+                                                 "name":  "欠拟合和过拟合解决办法"
+                                             },
+                                             {
+                                                 "id":  "3.20",
+                                                 "name":  "Lasso回归与岭回归"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  4,
+                             "chapterName":  "逻辑回归",
+                             "lessonCount":  12,
+                             "lessons":  [
+                                             {
+                                                 "id":  "4.1",
+                                                 "name":  "逻辑回归内容简介与应用场景"
+                                             },
+                                             {
+                                                 "id":  "4.2",
+                                                 "name":  "sigmoid函数与概率"
+                                             },
+                                             {
+                                                 "id":  "4.3",
+                                                 "name":  "极大似然估计与对数函数"
+                                             },
+                                             {
+                                                 "id":  "4.4",
+                                                 "name":  "极大似然估计求解"
+                                             },
+                                             {
+                                                 "id":  "4.5",
+                                                 "name":  "逻辑回归原理与损失函数"
+                                             },
+                                             {
+                                                 "id":  "4.6",
+                                                 "name":  "逻辑回归损失函数的推导"
+                                             },
+                                             {
+                                                 "id":  "4.7",
+                                                 "name":  "逻辑回归API及癌症分类案例"
+                                             },
+                                             {
+                                                 "id":  "4.8",
+                                                 "name":  "分类评估方法—混淆矩阵"
+                                             },
+                                             {
+                                                 "id":  "4.9",
+                                                 "name":  "精确率、召回率和f1-score"
+                                             },
+                                             {
+                                                 "id":  "4.10",
+                                                 "name":  "ROC曲线和AUC指标"
+                                             },
+                                             {
+                                                 "id":  "4.11",
+                                                 "name":  "电信客户流失预测（一）"
+                                             },
+                                             {
+                                                 "id":  "4.12",
+                                                 "name":  "电信客户流失预测（二）"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  5,
+                             "chapterName":  "决策树",
+                             "lessonCount":  12,
+                             "lessons":  [
+                                             {
+                                                 "id":  "5.1",
+                                                 "name":  "决策树内容概述与简介"
+                                             },
+                                             {
+                                                 "id":  "5.2",
+                                                 "name":  "信息熵公式及计算"
+                                             },
+                                             {
+                                                 "id":  "5.3",
+                                                 "name":  "信息增益公式及计算"
+                                             },
+                                             {
+                                                 "id":  "5.4",
+                                                 "name":  "ID3决策树构建流程及论坛流失特征分析"
+                                             },
+                                             {
+                                                 "id":  "5.5",
+                                                 "name":  "C4.5决策树与信息增益率公式"
+                                             },
+                                             {
+                                                 "id":  "5.6",
+                                                 "name":  "CART分类树及基尼指数公式"
+                                             },
+                                             {
+                                                 "id":  "5.7",
+                                                 "name":  "基尼指数计算—是否拖欠贷款案例"
+                                             },
+                                             {
+                                                 "id":  "5.8",
+                                                 "name":  "三种分类决策树的对比"
+                                             },
+                                             {
+                                                 "id":  "5.9",
+                                                 "name":  "泰坦尼克号生存预测"
+                                             },
+                                             {
+                                                 "id":  "5.10",
+                                                 "name":  "回归决策树的构建"
+                                             },
+                                             {
+                                                 "id":  "5.11",
+                                                 "name":  "线性回归与回归决策树的对比"
+                                             },
+                                             {
+                                                 "id":  "5.12",
+                                                 "name":  "决策树剪枝原理"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  6,
+                             "chapterName":  "集成学习",
+                             "lessonCount":  16,
+                             "lessons":  [
+                                             {
+                                                 "id":  "6.1",
+                                                 "name":  "集成学习简介"
+                                             },
+                                             {
+                                                 "id":  "6.2",
+                                                 "name":  "Bagging与Boosting对比"
+                                             },
+                                             {
+                                                 "id":  "6.3",
+                                                 "name":  "随机森林思想及API"
+                                             },
+                                             {
+                                                 "id":  "6.4",
+                                                 "name":  "随机森林案例"
+                                             },
+                                             {
+                                                 "id":  "6.5",
+                                                 "name":  "Adaboost算法简介"
+                                             },
+                                             {
+                                                 "id":  "6.6",
+                                                 "name":  "Adaboost推导"
+                                             },
+                                             {
+                                                 "id":  "6.7",
+                                                 "name":  "Adaboost构建流程"
+                                             },
+                                             {
+                                                 "id":  "6.8",
+                                                 "name":  "葡萄酒分类案例"
+                                             },
+                                             {
+                                                 "id":  "6.9",
+                                                 "name":  "GBDT梯度提升树简介"
+                                             },
+                                             {
+                                                 "id":  "6.10",
+                                                 "name":  "GBDT构建流程"
+                                             },
+                                             {
+                                                 "id":  "6.11",
+                                                 "name":  "GBDT预测实战案例"
+                                             },
+                                             {
+                                                 "id":  "6.12",
+                                                 "name":  "XGBoost算法思想"
+                                             },
+                                             {
+                                                 "id":  "6.13",
+                                                 "name":  "XGBoost目标函数推导（一）"
+                                             },
+                                             {
+                                                 "id":  "6.14",
+                                                 "name":  "XGBoost目标函数推导（二）"
+                                             },
+                                             {
+                                                 "id":  "6.15",
+                                                 "name":  "红酒品质分类—数据处理"
+                                             },
+                                             {
+                                                 "id":  "6.16",
+                                                 "name":  "红酒品质分类—模型训练"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  7,
+                             "chapterName":  "朴素贝叶斯与特征降维",
+                             "lessonCount":  7,
+                             "lessons":  [
+                                             {
+                                                 "id":  "7.1",
+                                                 "name":  "常见的概率公式"
+                                             },
+                                             {
+                                                 "id":  "7.2",
+                                                 "name":  "朴素贝叶斯及拉普拉斯平滑系数"
+                                             },
+                                             {
+                                                 "id":  "7.3",
+                                                 "name":  "商品情感分析—步骤分析"
+                                             },
+                                             {
+                                                 "id":  "7.4",
+                                                 "name":  "商品情感分析—jiaba分词及词频统计"
+                                             },
+                                             {
+                                                 "id":  "7.5",
+                                                 "name":  "商品情感分析—模型训练"
+                                             },
+                                             {
+                                                 "id":  "7.6",
+                                                 "name":  "特征降维-低方差过滤法"
+                                             },
+                                             {
+                                                 "id":  "7.7",
+                                                 "name":  "特征降维-主成分分析PCA和相关系数法"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  8,
+                             "chapterName":  "聚类kmeans算法",
+                             "lessonCount":  8,
+                             "lessons":  [
+                                             {
+                                                 "id":  "8.1",
+                                                 "name":  "聚类算法介绍及分类"
+                                             },
+                                             {
+                                                 "id":  "8.2",
+                                                 "name":  "聚类API初步使用"
+                                             },
+                                             {
+                                                 "id":  "8.3",
+                                                 "name":  "k-means算法流程"
+                                             },
+                                             {
+                                                 "id":  "8.4",
+                                                 "name":  "SSE误差平方和与肘方法"
+                                             },
+                                             {
+                                                 "id":  "8.5",
+                                                 "name":  "SC系数"
+                                             },
+                                             {
+                                                 "id":  "8.6",
+                                                 "name":  "CH系数"
+                                             },
+                                             {
+                                                 "id":  "8.7",
+                                                 "name":  "顾客数据聚类分析-流程讲解"
+                                             },
+                                             {
+                                                 "id":  "8.8",
+                                                 "name":  "顾客数据聚类分析-代码实现"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  9,
+                             "chapterName":  "支持向量机SVM",
+                             "lessonCount":  9,
+                             "lessons":  [
+                                             {
+                                                 "id":  "9.1",
+                                                 "name":  "支持向量机SVM的思想与定义"
+                                             },
+                                             {
+                                                 "id":  "9.2",
+                                                 "name":  "软硬间隔及核函数作用"
+                                             },
+                                             {
+                                                 "id":  "9.3",
+                                                 "name":  "SVM的API初步使用"
+                                             },
+                                             {
+                                                 "id":  "9.4",
+                                                 "name":  "SVM的惩罚系数C对超平面的影响"
+                                             },
+                                             {
+                                                 "id":  "9.5",
+                                                 "name":  "SVM原理(1)-目标函数和条件优化"
+                                             },
+                                             {
+                                                 "id":  "9.6",
+                                                 "name":  "SVM原理(2)-拉格朗日乘子法与对偶转换"
+                                             },
+                                             {
+                                                 "id":  "9.7",
+                                                 "name":  "核函数作用和分类"
+                                             },
+                                             {
+                                                 "id":  "9.8",
+                                                 "name":  "高斯核API及gamma值的影响"
+                                             },
+                                             {
+                                                 "id":  "9.9",
+                                                 "name":  "正态分布与高斯核函数"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  8,
+        "stageName":  "深度学习",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "机器学习与深度学习",
+                             "lessonCount":  2,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "深度学习介绍和与机器学习区别"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "深度学习发展史和优缺点"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "Pytorch框架",
+                             "lessonCount":  25,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "pytorch介绍"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "检查NVIDIA驱动和CUDA安装"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "pytorch的GPU版本安装与验证"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "张量的基本创建方式"
+                                             },
+                                             {
+                                                 "id":  "2.5",
+                                                 "name":  "创建线性和随机张量"
+                                             },
+                                             {
+                                                 "id":  "2.6",
+                                                 "name":  "创建全为0-1或指定值张量"
+                                             },
+                                             {
+                                                 "id":  "2.7",
+                                                 "name":  "张量元素的类型转换"
+                                             },
+                                             {
+                                                 "id":  "2.8",
+                                                 "name":  "张量与ndarray数组类型转换"
+                                             },
+                                             {
+                                                 "id":  "2.9",
+                                                 "name":  "标量张量和数字转换"
+                                             },
+                                             {
+                                                 "id":  "2.10",
+                                                 "name":  "张量的基本运算"
+                                             },
+                                             {
+                                                 "id":  "2.11",
+                                                 "name":  "张量的点乘与点积运算"
+                                             },
+                                             {
+                                                 "id":  "2.12",
+                                                 "name":  "张量常见的运算函数"
+                                             },
+                                             {
+                                                 "id":  "2.13",
+                                                 "name":  "张量的索引操作"
+                                             },
+                                             {
+                                                 "id":  "2.14",
+                                                 "name":  "布尔索引与多维索引"
+                                             },
+                                             {
+                                                 "id":  "2.15",
+                                                 "name":  "张量形状操作"
+                                             },
+                                             {
+                                                 "id":  "2.16",
+                                                 "name":  "transpose与permute"
+                                             },
+                                             {
+                                                 "id":  "2.17",
+                                                 "name":  "view和contiguous"
+                                             },
+                                             {
+                                                 "id":  "2.18",
+                                                 "name":  "张量的拼接操作"
+                                             },
+                                             {
+                                                 "id":  "2.19",
+                                                 "name":  "自动微分模块"
+                                             },
+                                             {
+                                                 "id":  "2.20",
+                                                 "name":  "当X为标量和矩阵时的自动微分"
+                                             },
+                                             {
+                                                 "id":  "2.21",
+                                                 "name":  "线性回归思想"
+                                             },
+                                             {
+                                                 "id":  "2.22",
+                                                 "name":  "构建线性回归模型-数据准备"
+                                             },
+                                             {
+                                                 "id":  "2.23",
+                                                 "name":  "构建数据加载器和构建模型"
+                                             },
+                                             {
+                                                 "id":  "2.24",
+                                                 "name":  "模型训练"
+                                             },
+                                             {
+                                                 "id":  "2.25",
+                                                 "name":  "绘制损失变化曲线"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "神经网络基础",
+                             "lessonCount":  37,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "神经网络基础章节介绍"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "神经网络的构成"
+                                             },
+                                             {
+                                                 "id":  "3.3",
+                                                 "name":  "激活函数"
+                                             },
+                                             {
+                                                 "id":  "3.4",
+                                                 "name":  "sigmoid激活函数"
+                                             },
+                                             {
+                                                 "id":  "3.5",
+                                                 "name":  "tanh激活函数"
+                                             },
+                                             {
+                                                 "id":  "3.6",
+                                                 "name":  "relu激活函数"
+                                             },
+                                             {
+                                                 "id":  "3.7",
+                                                 "name":  "softmax激活函数"
+                                             },
+                                             {
+                                                 "id":  "3.8",
+                                                 "name":  "其他激活函数及激活函数选择方法"
+                                             },
+                                             {
+                                                 "id":  "3.9",
+                                                 "name":  "参数初始化"
+                                             },
+                                             {
+                                                 "id":  "3.10",
+                                                 "name":  "kaiming初始化和xavier初始化"
+                                             },
+                                             {
+                                                 "id":  "3.11",
+                                                 "name":  "搭建神经网络模型-需求"
+                                             },
+                                             {
+                                                 "id":  "3.12",
+                                                 "name":  "神经网络模型搭建"
+                                             },
+                                             {
+                                                 "id":  "3.13",
+                                                 "name":  "forward前向传播过程"
+                                             },
+                                             {
+                                                 "id":  "3.14",
+                                                 "name":  "模型和数据放在GPU设备上运行"
+                                             },
+                                             {
+                                                 "id":  "3.15",
+                                                 "name":  "查看模型参数"
+                                             },
+                                             {
+                                                 "id":  "3.16",
+                                                 "name":  "模型参数的计算"
+                                             },
+                                             {
+                                                 "id":  "3.17",
+                                                 "name":  "神经网络的优缺点"
+                                             },
+                                             {
+                                                 "id":  "3.18",
+                                                 "name":  "多分类交叉熵损失"
+                                             },
+                                             {
+                                                 "id":  "3.19",
+                                                 "name":  "二分类交叉熵损失"
+                                             },
+                                             {
+                                                 "id":  "3.20",
+                                                 "name":  "回归损失函数"
+                                             },
+                                             {
+                                                 "id":  "3.21",
+                                                 "name":  "梯度下降算法"
+                                             },
+                                             {
+                                                 "id":  "3.22",
+                                                 "name":  "前向传播运算过程"
+                                             },
+                                             {
+                                                 "id":  "3.23",
+                                                 "name":  "反向传播(BP算法)运算过程"
+                                             },
+                                             {
+                                                 "id":  "3.24",
+                                                 "name":  "反向传播运算过程代码验证"
+                                             },
+                                             {
+                                                 "id":  "3.25",
+                                                 "name":  "梯度下降的优化方法"
+                                             },
+                                             {
+                                                 "id":  "3.26",
+                                                 "name":  "指数加权平均"
+                                             },
+                                             {
+                                                 "id":  "3.27",
+                                                 "name":  "Momentum动量算法"
+                                             },
+                                             {
+                                                 "id":  "3.28",
+                                                 "name":  "AdaGrad"
+                                             },
+                                             {
+                                                 "id":  "3.29",
+                                                 "name":  "RMSProp和Adam"
+                                             },
+                                             {
+                                                 "id":  "3.30",
+                                                 "name":  "学习率优化策略-等间隔衰减."
+                                             },
+                                             {
+                                                 "id":  "3.31",
+                                                 "name":  "指定间隔衰减和按指数衰减"
+                                             },
+                                             {
+                                                 "id":  "3.32",
+                                                 "name":  "dropout随机失活正则化"
+                                             },
+                                             {
+                                                 "id":  "3.33",
+                                                 "name":  "BN批量归一化层"
+                                             },
+                                             {
+                                                 "id":  "3.34",
+                                                 "name":  "手机价格分类预测-准备数据集"
+                                             },
+                                             {
+                                                 "id":  "3.35",
+                                                 "name":  "手机价格分类预测-网络构建"
+                                             },
+                                             {
+                                                 "id":  "3.36",
+                                                 "name":  "手机价格分类预测-模型训练"
+                                             },
+                                             {
+                                                 "id":  "3.37",
+                                                 "name":  "手机价格分类预测-模型评估与网络性能调优"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  4,
+                             "chapterName":  "卷积神经网络CNN",
+                             "lessonCount":  11,
+                             "lessons":  [
+                                             {
+                                                 "id":  "4.1",
+                                                 "name":  "图片的表示形式"
+                                             },
+                                             {
+                                                 "id":  "4.2",
+                                                 "name":  "像素和通道的理解"
+                                             },
+                                             {
+                                                 "id":  "4.3",
+                                                 "name":  "CNN卷积神经网络构成"
+                                             },
+                                             {
+                                                 "id":  "4.4",
+                                                 "name":  "卷积层"
+                                             },
+                                             {
+                                                 "id":  "4.5",
+                                                 "name":  "卷积API实现"
+                                             },
+                                             {
+                                                 "id":  "4.6",
+                                                 "name":  "池化层"
+                                             },
+                                             {
+                                                 "id":  "4.7",
+                                                 "name":  "CIFAR10图像分类-准备数据集"
+                                             },
+                                             {
+                                                 "id":  "4.8",
+                                                 "name":  "CIFAR10图像分类-LeNet卷积网络设计"
+                                             },
+                                             {
+                                                 "id":  "4.9",
+                                                 "name":  "CIFAR10图像分类-网络结构实现"
+                                             },
+                                             {
+                                                 "id":  "4.10",
+                                                 "name":  "CIFAR10图像分类-模型训练"
+                                             },
+                                             {
+                                                 "id":  "4.11",
+                                                 "name":  "CIFAR10图像分类-模型评估与性能优化"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  5,
+                             "chapterName":  "循环神经网络RNN",
+                             "lessonCount":  10,
+                             "lessons":  [
+                                             {
+                                                 "id":  "5.1",
+                                                 "name":  "自然语言处理NLP概述"
+                                             },
+                                             {
+                                                 "id":  "5.2",
+                                                 "name":  "词嵌入层"
+                                             },
+                                             {
+                                                 "id":  "5.3",
+                                                 "name":  "RNN循环神经网络原理"
+                                             },
+                                             {
+                                                 "id":  "5.4",
+                                                 "name":  "RNN层的实现"
+                                             },
+                                             {
+                                                 "id":  "5.5",
+                                                 "name":  "周杰伦歌词文本生成-构建词表"
+                                             },
+                                             {
+                                                 "id":  "5.6",
+                                                 "name":  "周杰伦歌词文本生成-构建数据集对象"
+                                             },
+                                             {
+                                                 "id":  "5.7",
+                                                 "name":  "周杰伦歌词文本生成-模型构建讲解"
+                                             },
+                                             {
+                                                 "id":  "5.8",
+                                                 "name":  "周杰伦歌词文本生成-模型构建实现"
+                                             },
+                                             {
+                                                 "id":  "5.9",
+                                                 "name":  "周杰伦歌词文本生成-训练模型"
+                                             },
+                                             {
+                                                 "id":  "5.10",
+                                                 "name":  "周杰伦歌词文本生成-模型预测"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  9,
+        "stageName":  "NLP自然语言处理",
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "NLP简介",
+                             "lessonCount":  3,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "自然语言处理内容概要"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "NLP简介与发展史"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "NLP的应用场景"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "文本预处理",
+                             "lessonCount":  27,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "文本预处理的主要环节"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "文本分词介绍及jieba精确模式分词"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "jieba全模式分词与搜索引擎模式分词"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "jieba繁体中文分词和用户自定义词典"
+                                             },
+                                             {
+                                                 "id":  "2.5",
+                                                 "name":  "命名实体识别NER和词性标注Pos"
+                                             },
+                                             {
+                                                 "id":  "2.6",
+                                                 "name":  "文本张量的表示方法介绍"
+                                             },
+                                             {
+                                                 "id":  "2.7",
+                                                 "name":  "onehot编码的训练与保存"
+                                             },
+                                             {
+                                                 "id":  "2.8",
+                                                 "name":  "onehot编码的使用"
+                                             },
+                                             {
+                                                 "id":  "2.9",
+                                                 "name":  "Word2Vec之CBOW方式"
+                                             },
+                                             {
+                                                 "id":  "2.10",
+                                                 "name":  "CBOW词向量训练过程详解"
+                                             },
+                                             {
+                                                 "id":  "2.11",
+                                                 "name":  "Word2Vec之SkipGram方式及详解"
+                                             },
+                                             {
+                                                 "id":  "2.12",
+                                                 "name":  "fasttext词向量的训练"
+                                             },
+                                             {
+                                                 "id":  "2.13",
+                                                 "name":  "fasttext词向量的使用"
+                                             },
+                                             {
+                                                 "id":  "2.14",
+                                                 "name":  "WordEmbedding与Word2Vec区别"
+                                             },
+                                             {
+                                                 "id":  "2.15",
+                                                 "name":  "WordEmbedding词向量实现"
+                                             },
+                                             {
+                                                 "id":  "2.16",
+                                                 "name":  "文本张量tesorboard可视化"
+                                             },
+                                             {
+                                                 "id":  "2.17",
+                                                 "name":  "文本张量表示方法的总结"
+                                             },
+                                             {
+                                                 "id":  "2.18",
+                                                 "name":  "文本数据分析介绍及获取标签数量分布"
+                                             },
+                                             {
+                                                 "id":  "2.19",
+                                                 "name":  "获取句子长度分布"
+                                             },
+                                             {
+                                                 "id":  "2.20",
+                                                 "name":  "高效内置函数map和zip"
+                                             },
+                                             {
+                                                 "id":  "2.21",
+                                                 "name":  "高效内置函数filter、enumerate、reduce和chain"
+                                             },
+                                             {
+                                                 "id":  "2.22",
+                                                 "name":  "正负样本长度散点分布"
+                                             },
+                                             {
+                                                 "id":  "2.23",
+                                                 "name":  "统计词汇总数"
+                                             },
+                                             {
+                                                 "id":  "2.24",
+                                                 "name":  "获取高频形容词词云"
+                                             },
+                                             {
+                                                 "id":  "2.25",
+                                                 "name":  "添加n-gram特征原理"
+                                             },
+                                             {
+                                                 "id":  "2.26",
+                                                 "name":  "文本长度规范之截断和补齐"
+                                             },
+                                             {
+                                                 "id":  "2.27",
+                                                 "name":  "回译数据增强法"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "RNN模型",
+                             "lessonCount":  29,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "RNN介绍"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "RNN模型的作用与分类"
+                                             },
+                                             {
+                                                 "id":  "3.3",
+                                                 "name":  "RNN内部结构图说明"
+                                             },
+                                             {
+                                                 "id":  "3.4",
+                                                 "name":  "RNN模型base代码的实现"
+                                             },
+                                             {
+                                                 "id":  "3.5",
+                                                 "name":  "RNN模型修改API参数（1）"
+                                             },
+                                             {
+                                                 "id":  "3.6",
+                                                 "name":  "RNN模型修改API参数（2）"
+                                             },
+                                             {
+                                                 "id":  "3.7",
+                                                 "name":  "LSTM内部结构—遗忘门与输入门"
+                                             },
+                                             {
+                                                 "id":  "3.8",
+                                                 "name":  "LSTM内部结构—细胞状态与输出门"
+                                             },
+                                             {
+                                                 "id":  "3.9",
+                                                 "name":  "Bi-LSTM—双向LSTM"
+                                             },
+                                             {
+                                                 "id":  "3.10",
+                                                 "name":  "pytorch构建LSTM模型"
+                                             },
+                                             {
+                                                 "id":  "3.11",
+                                                 "name":  "GRU结构分析—重置门与更新门"
+                                             },
+                                             {
+                                                 "id":  "3.12",
+                                                 "name":  "pytorch构建GRU模型"
+                                             },
+                                             {
+                                                 "id":  "3.13",
+                                                 "name":  "RNN人名分类案例介绍"
+                                             },
+                                             {
+                                                 "id":  "3.14",
+                                                 "name":  "RNN人名分类任务识别"
+                                             },
+                                             {
+                                                 "id":  "3.15",
+                                                 "name":  "将文本数据读取到内存中"
+                                             },
+                                             {
+                                                 "id":  "3.16",
+                                                 "name":  "构建Dataset数据源对象"
+                                             },
+                                             {
+                                                 "id":  "3.17",
+                                                 "name":  "实例化dataloader对象"
+                                             },
+                                             {
+                                                 "id":  "3.18",
+                                                 "name":  "构建RNN模型（1）"
+                                             },
+                                             {
+                                                 "id":  "3.19",
+                                                 "name":  "构建RNN模型（2）"
+                                             },
+                                             {
+                                                 "id":  "3.20",
+                                                 "name":  "RNN模型测试与参数统计"
+                                             },
+                                             {
+                                                 "id":  "3.21",
+                                                 "name":  "LSTM和GRU模型构建与测试"
+                                             },
+                                             {
+                                                 "id":  "3.22",
+                                                 "name":  "RNN模型训练实现（1）"
+                                             },
+                                             {
+                                                 "id":  "3.23",
+                                                 "name":  "RNN模型训练实现（2）"
+                                             },
+                                             {
+                                                 "id":  "3.24",
+                                                 "name":  "LSTM和GRU模型训练实现"
+                                             },
+                                             {
+                                                 "id":  "3.25",
+                                                 "name":  "绘图展示训练结果"
+                                             },
+                                             {
+                                                 "id":  "3.26",
+                                                 "name":  "实现RNN模型预测"
+                                             },
+                                             {
+                                                 "id":  "3.27",
+                                                 "name":  "LSTM和GRU模型预测"
+                                             },
+                                             {
+                                                 "id":  "3.28",
+                                                 "name":  "将代码改为GPU模式"
+                                             },
+                                             {
+                                                 "id":  "3.29",
+                                                 "name":  "每次模型训练自动化文件夹隔离"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  4,
+                             "chapterName":  "注意力机制介绍",
+                             "lessonCount":  11,
+                             "lessons":  [
+                                             {
+                                                 "id":  "4.1",
+                                                 "name":  "注意力机制的由来"
+                                             },
+                                             {
+                                                 "id":  "4.2",
+                                                 "name":  "注意力机制的分类"
+                                             },
+                                             {
+                                                 "id":  "4.3",
+                                                 "name":  "SoftAttention之不带Attention的Encoder2Decoder框架"
+                                             },
+                                             {
+                                                 "id":  "4.4",
+                                                 "name":  "SoftAttention之带Attention的Encoder2Decoder框架"
+                                             },
+                                             {
+                                                 "id":  "4.5",
+                                                 "name":  "注意力概率分布及Attention本质思想"
+                                             },
+                                             {
+                                                 "id":  "4.6",
+                                                 "name":  "HardAttention与SelfAttention"
+                                             },
+                                             {
+                                                 "id":  "4.7",
+                                                 "name":  "pytorch版本的attention计算过程"
+                                             },
+                                             {
+                                                 "id":  "4.8",
+                                                 "name":  "bmm运算与广播机制"
+                                             },
+                                             {
+                                                 "id":  "4.9",
+                                                 "name":  "注意力机制作用和实现步骤讲解"
+                                             },
+                                             {
+                                                 "id":  "4.10",
+                                                 "name":  "注意力机制代码实现"
+                                             },
+                                             {
+                                                 "id":  "4.11",
+                                                 "name":  "注意力机制代码另一种实现"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  5,
+                             "chapterName":  "英译法案例分析",
+                             "lessonCount":  17,
+                             "lessons":  [
+                                             {
+                                                 "id":  "5.1",
+                                                 "name":  "seq2seq英译法案例介绍和数据集介绍"
+                                             },
+                                             {
+                                                 "id":  "5.2",
+                                                 "name":  "英译法案例任务识别和数据处理之文本清洗"
+                                             },
+                                             {
+                                                 "id":  "5.3",
+                                                 "name":  "构建文本词典"
+                                             },
+                                             {
+                                                 "id":  "5.4",
+                                                 "name":  "构建dataset"
+                                             },
+                                             {
+                                                 "id":  "5.5",
+                                                 "name":  "构建dataloader"
+                                             },
+                                             {
+                                                 "id":  "5.6",
+                                                 "name":  "基于GRU编码器模型的代码实现"
+                                             },
+                                             {
+                                                 "id":  "5.7",
+                                                 "name":  "基于GRU解码器模型的代码实现"
+                                             },
+                                             {
+                                                 "id":  "5.8",
+                                                 "name":  "基于GRU带Attention注意力机制的解码器（1）"
+                                             },
+                                             {
+                                                 "id":  "5.9",
+                                                 "name":  "基于GRU带Attention注意力机制的解码器（2）"
+                                             },
+                                             {
+                                                 "id":  "5.10",
+                                                 "name":  "基于GRU带Attention注意力机制的解码器（3）"
+                                             },
+                                             {
+                                                 "id":  "5.11",
+                                                 "name":  "构建模型训练函数（1）"
+                                             },
+                                             {
+                                                 "id":  "5.12",
+                                                 "name":  "构建模型训练函数（2）"
+                                             },
+                                             {
+                                                 "id":  "5.13",
+                                                 "name":  "构建模型训练函数（3）"
+                                             },
+                                             {
+                                                 "id":  "5.14",
+                                                 "name":  "训练损失曲线画图"
+                                             },
+                                             {
+                                                 "id":  "5.15",
+                                                 "name":  "构建模型评估函数（1）"
+                                             },
+                                             {
+                                                 "id":  "5.16",
+                                                 "name":  "构建模型评估函数（2）"
+                                             },
+                                             {
+                                                 "id":  "5.17",
+                                                 "name":  "Attention张量制图"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  6,
+                             "chapterName":  "Transformer",
+                             "lessonCount":  23,
+                             "lessons":  [
+                                             {
+                                                 "id":  "6.1",
+                                                 "name":  "Transformer背景介绍"
+                                             },
+                                             {
+                                                 "id":  "6.2",
+                                                 "name":  "Transformer架构组成"
+                                             },
+                                             {
+                                                 "id":  "6.3",
+                                                 "name":  "输入—文本词嵌入层"
+                                             },
+                                             {
+                                                 "id":  "6.4",
+                                                 "name":  "输入—位置编码器层代码讲解"
+                                             },
+                                             {
+                                                 "id":  "6.5",
+                                                 "name":  "输入—位置编码器层代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.6",
+                                                 "name":  "输入—绘制位置特征的分布曲线"
+                                             },
+                                             {
+                                                 "id":  "6.7",
+                                                 "name":  "编码器—上下三角矩阵及掩码张量的实现"
+                                             },
+                                             {
+                                                 "id":  "6.8",
+                                                 "name":  "编码器—masked_fill掩码实现"
+                                             },
+                                             {
+                                                 "id":  "6.9",
+                                                 "name":  "编码器—注意力机制代码分析与实现"
+                                             },
+                                             {
+                                                 "id":  "6.10",
+                                                 "name":  "编码器—多头注意力机制概念"
+                                             },
+                                             {
+                                                 "id":  "6.11",
+                                                 "name":  "Transformer背景介绍 \t BERT简介和三层架构介绍   Transformer架构组成 \t BERT的两大预训练任务   输入—文本词嵌入层 \t BERT模型的特点   输入—位置编码器"
+                                             },
+                                             {
+                                                 "id":  "6.12",
+                                                 "name":  "编码器—多头注意力机制代码实现（1）"
+                                             },
+                                             {
+                                                 "id":  "6.13",
+                                                 "name":  "编码器—多头注意力机制代码实现（2）"
+                                             },
+                                             {
+                                                 "id":  "6.14",
+                                                 "name":  "编码器—前馈全连接层分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.15",
+                                                 "name":  "编码器—规范化层分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.16",
+                                                 "name":  "编码器—子层连接结构分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.17",
+                                                 "name":  "编码器—编码器层分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.18",
+                                                 "name":  "编码器—编码器分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.19",
+                                                 "name":  "解码器—解码器层分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.20",
+                                                 "name":  "解码器—解码器分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.21",
+                                                 "name":  "输出—输出部分分析与代码实现"
+                                             },
+                                             {
+                                                 "id":  "6.22",
+                                                 "name":  "Transformer架构代码分析"
+                                             },
+                                             {
+                                                 "id":  "6.23",
+                                                 "name":  "Transformer架构代码实现与测试"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  7,
+                             "chapterName":  "fasttext工具介绍及模型架构讲解",
+                             "lessonCount":  3,
+                             "lessons":  [
+                                             {
+                                                 "id":  "7.1",
+                                                 "name":  "fasttext工具介绍及模型架构讲解"
+                                             },
+                                             {
+                                                 "id":  "7.2",
+                                                 "name":  "层次softmax和构建哈夫曼树"
+                                             },
+                                             {
+                                                 "id":  "7.3",
+                                                 "name":  "负采样原理"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  8,
+                             "chapterName":  "fasttext文本分类",
+                             "lessonCount":  8,
+                             "lessons":  [
+                                             {
+                                                 "id":  "8.1",
+                                                 "name":  "获取和划分数据集"
+                                             },
+                                             {
+                                                 "id":  "8.2",
+                                                 "name":  "训练和评估模型及数据处理调优"
+                                             },
+                                             {
+                                                 "id":  "8.3",
+                                                 "name":  "模型调优（1）"
+                                             },
+                                             {
+                                                 "id":  "8.4",
+                                                 "name":  "模型调优（2）"
+                                             },
+                                             {
+                                                 "id":  "8.5",
+                                                 "name":  "词向量迁移"
+                                             },
+                                             {
+                                                 "id":  "8.6",
+                                                 "name":  "什么是迁移学习？"
+                                             },
+                                             {
+                                                 "id":  "8.7",
+                                                 "name":  "NLP中常用的预训练模型"
+                                             },
+                                             {
+                                                 "id":  "8.8",
+                                                 "name":  "transformers库介绍及三层应用结构"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  9,
+                             "chapterName":  "管道方式",
+                             "lessonCount":  6,
+                             "lessons":  [
+                                             {
+                                                 "id":  "9.1",
+                                                 "name":  "文本分类任务"
+                                             },
+                                             {
+                                                 "id":  "9.2",
+                                                 "name":  "特征提取任务"
+                                             },
+                                             {
+                                                 "id":  "9.3",
+                                                 "name":  "完型填空任务"
+                                             },
+                                             {
+                                                 "id":  "9.4",
+                                                 "name":  "阅读理解任务"
+                                             },
+                                             {
+                                                 "id":  "9.5",
+                                                 "name":  "文本摘要任务"
+                                             },
+                                             {
+                                                 "id":  "9.6",
+                                                 "name":  "NER任务"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  10,
+                             "chapterName":  "自动模型",
+                             "lessonCount":  7,
+                             "lessons":  [
+                                             {
+                                                 "id":  "10.1",
+                                                 "name":  "文本分类任务（1）"
+                                             },
+                                             {
+                                                 "id":  "10.2",
+                                                 "name":  "文本分类任务（2）"
+                                             },
+                                             {
+                                                 "id":  "10.3",
+                                                 "name":  "特征提取任务"
+                                             },
+                                             {
+                                                 "id":  "10.4",
+                                                 "name":  "完型填空任务"
+                                             },
+                                             {
+                                                 "id":  "10.5",
+                                                 "name":  "阅读理解任务"
+                                             },
+                                             {
+                                                 "id":  "10.6",
+                                                 "name":  "文本摘要任务"
+                                             },
+                                             {
+                                                 "id":  "10.7",
+                                                 "name":  "NER任务"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  11,
+                             "chapterName":  "迁移学习",
+                             "lessonCount":  22,
+                             "lessons":  [
+                                             {
+                                                 "id":  "11.1",
+                                                 "name":  "中文文本分类-数据介绍"
+                                             },
+                                             {
+                                                 "id":  "11.2",
+                                                 "name":  "中文文本分类-数据预处理（1）"
+                                             },
+                                             {
+                                                 "id":  "11.3",
+                                                 "name":  "中文文本分类-数据预处理（2）"
+                                             },
+                                             {
+                                                 "id":  "11.4",
+                                                 "name":  "中文文本分类-自定义模型"
+                                             },
+                                             {
+                                                 "id":  "11.5",
+                                                 "name":  "中文文本分类-模型训练"
+                                             },
+                                             {
+                                                 "id":  "11.6",
+                                                 "name":  "中文文本分类-模型评估"
+                                             },
+                                             {
+                                                 "id":  "11.7",
+                                                 "name":  "中文完型填空-数据预处理"
+                                             },
+                                             {
+                                                 "id":  "11.8",
+                                                 "name":  "中文完型填空-构建模型"
+                                             },
+                                             {
+                                                 "id":  "11.9",
+                                                 "name":  "中文完型填空-模型训练"
+                                             },
+                                             {
+                                                 "id":  "11.10",
+                                                 "name":  "中文完型填空-模型评估"
+                                             },
+                                             {
+                                                 "id":  "11.11",
+                                                 "name":  "中文句子关系-数据预处理"
+                                             },
+                                             {
+                                                 "id":  "11.12",
+                                                 "name":  "中文句子关系-构建模型"
+                                             },
+                                             {
+                                                 "id":  "11.13",
+                                                 "name":  "-中文句子关系-模型训练"
+                                             },
+                                             {
+                                                 "id":  "11.14",
+                                                 "name":  "中文句子关系-模型评估"
+                                             },
+                                             {
+                                                 "id":  "11.15",
+                                                 "name":  "NLP的标准数据集GLUE和中文CLUE"
+                                             },
+                                             {
+                                                 "id":  "11.16",
+                                                 "name":  "BERT简介和三层架构介绍"
+                                             },
+                                             {
+                                                 "id":  "11.17",
+                                                 "name":  "BERT的两大预训练任务"
+                                             },
+                                             {
+                                                 "id":  "11.18",
+                                                 "name":  "BERT模型的特点"
+                                             },
+                                             {
+                                                 "id":  "11.19",
+                                                 "name":  "AIBERT与RoBERTa模型"
+                                             },
+                                             {
+                                                 "id":  "11.20",
+                                                 "name":  "MacBERT与SpanBERT模型"
+                                             },
+                                             {
+                                                 "id":  "11.21",
+                                                 "name":  "ELMo模型的介绍"
+                                             },
+                                             {
+                                                 "id":  "11.22",
+                                                 "name":  "GPT模型的介绍"
+                                             }
+                                         ]
+                         }
+                     ]
+    },
+    {
+        "stageId":  10,
+        "stageName":  "大语言模型原理与实战",
+        "optional":  true,
+        "chapters":  [
+                         {
+                             "chapterId":  1,
+                             "chapterName":  "大模型应用工具实战",
+                             "lessonCount":  16,
+                             "lessons":  [
+                                             {
+                                                 "id":  "1.1",
+                                                 "name":  "通义系列大模型-通义千问"
+                                             },
+                                             {
+                                                 "id":  "1.2",
+                                                 "name":  "通义系列大模型一通义万相"
+                                             },
+                                             {
+                                                 "id":  "1.3",
+                                                 "name":  "通义系列大模型一通义效率"
+                                             },
+                                             {
+                                                 "id":  "1.4",
+                                                 "name":  "通义系列大模型一通义听悟"
+                                             },
+                                             {
+                                                 "id":  "1.5",
+                                                 "name":  "通义系列大模型-通义法睿"
+                                             },
+                                             {
+                                                 "id":  "1.6",
+                                                 "name":  "通义系列大模型-通义灵码"
+                                             },
+                                             {
+                                                 "id":  "1.7",
+                                                 "name":  "通义系列大模型其他应用模型"
+                                             },
+                                             {
+                                                 "id":  "1.8",
+                                                 "name":  "科大讯飞系列大模型一讯飞星火大模型"
+                                             },
+                                             {
+                                                 "id":  "1.9",
+                                                 "name":  "科大讯飞系列大模型-讯飞智文"
+                                             },
+                                             {
+                                                 "id":  "1.10",
+                                                 "name":  "科大讯飞系列大模型一讯飞绘文"
+                                             },
+                                             {
+                                                 "id":  "1.11",
+                                                 "name":  "科大讯飞系列大模型-讯飞文档问答"
+                                             },
+                                             {
+                                                 "id":  "1.12",
+                                                 "name":  "科大讯飞系列大模型-iFlyCode"
+                                             },
+                                             {
+                                                 "id":  "1.13",
+                                                 "name":  "deepseek、文心一言、kimi、智谱清言"
+                                             },
+                                             {
+                                                 "id":  "1.14",
+                                                 "name":  "腾讯元宝、豆包、MiniMax、阶跃星辰"
+                                             },
+                                             {
+                                                 "id":  "1.15",
+                                                 "name":  "LibLibA1、堆友、可灵Al"
+                                             },
+                                             {
+                                                 "id":  "1.16",
+                                                 "name":  "百度智能云曦灵"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  2,
+                             "chapterName":  "LLM背景知识介绍",
+                             "lessonCount":  13,
+                             "lessons":  [
+                                             {
+                                                 "id":  "2.1",
+                                                 "name":  "大语言模型LLM介绍"
+                                             },
+                                             {
+                                                 "id":  "2.2",
+                                                 "name":  "基于规则和统计的语言模型"
+                                             },
+                                             {
+                                                 "id":  "2.3",
+                                                 "name":  "神经网络语言模型"
+                                             },
+                                             {
+                                                 "id":  "2.4",
+                                                 "name":  "大模型评估指标-BLUE分数"
+                                             },
+                                             {
+                                                 "id":  "2.5",
+                                                 "name":  "大模型评估指标-ROUGE指标"
+                                             },
+                                             {
+                                                 "id":  "2.6",
+                                                 "name":  "大模型评估指标-PPL困惑度"
+                                             },
+                                             {
+                                                 "id":  "2.7",
+                                                 "name":  "Transformer结构及大模型架构类型"
+                                             },
+                                             {
+                                                 "id":  "2.8",
+                                                 "name":  "自编码模型AE-BERT"
+                                             },
+                                             {
+                                                 "id":  "2.9",
+                                                 "name":  "自回归模型AR-GPT模型架构"
+                                             },
+                                             {
+                                                 "id":  "2.10",
+                                                 "name":  "自回归模型AR-GPT训练过程"
+                                             },
+                                             {
+                                                 "id":  "2.11",
+                                                 "name":  "自回归模型AR-GPT模型特点"
+                                             },
+                                             {
+                                                 "id":  "2.12",
+                                                 "name":  "序列到序列模型-T5"
+                                             },
+                                             {
+                                                 "id":  "2.13",
+                                                 "name":  "大模型主流架构一自回归模型AR"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  3,
+                             "chapterName":  "主流大模型介绍",
+                             "lessonCount":  15,
+                             "lessons":  [
+                                             {
+                                                 "id":  "3.1",
+                                                 "name":  "什么是ChatGPT"
+                                             },
+                                             {
+                                                 "id":  "3.2",
+                                                 "name":  "GPT2模型架构和训练核心思想"
+                                             },
+                                             {
+                                                 "id":  "3.3",
+                                                 "name":  "GPT2模型特点和GPT3简介"
+                                             },
+                                             {
+                                                 "id":  "3.4",
+                                                 "name":  "GPT3训练核心思想-ln-Context Learning"
+                                             },
+                                             {
+                                                 "id":  "3.5",
+                                                 "name":  "ChatGPT简介与原理"
+                                             },
+                                             {
+                                                 "id":  "3.6",
+                                                 "name":  "ChatGPT强化学习步骧"
+                                             },
+                                             {
+                                                 "id":  "3.7",
+                                                 "name":  "主流开源大模型种类和显卡配置"
+                                             },
+                                             {
+                                                 "id":  "3.8",
+                                                 "name":  "LLaMa模型结构与迭代版本介绍"
+                                             },
+                                             {
+                                                 "id":  "3.9",
+                                                 "name":  "ChatGLM模型结构与迭代版本介绍"
+                                             },
+                                             {
+                                                 "id":  "3.10",
+                                                 "name":  "BLOOM、Baichua及零一万物大模型介绍"
+                                             },
+                                             {
+                                                 "id":  "3.11",
+                                                 "name":  "Qwen系列模型"
+                                             },
+                                             {
+                                                 "id":  "3.12",
+                                                 "name":  "DeepseekV1-V3及R1模型选代介绍"
+                                             },
+                                             {
+                                                 "id":  "3.13",
+                                                 "name":  "Deepseek模型结构创新-MLA与MoE"
+                                             },
+                                             {
+                                                 "id":  "3.14",
+                                                 "name":  "DeepSeekV3与R1训练策略"
+                                             },
+                                             {
+                                                 "id":  "3.15",
+                                                 "name":  "开源协议与MCP大模型协议"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  4,
+                             "chapterName":  "大模型提示词工程应用实战",
+                             "lessonCount":  15,
+                             "lessons":  [
+                                             {
+                                                 "id":  "4.1",
+                                                 "name":  "什么是提示词工程?"
+                                             },
+                                             {
+                                                 "id":  "4.2",
+                                                 "name":  "提示工程的原则(1)"
+                                             },
+                                             {
+                                                 "id":  "4.3",
+                                                 "name":  "提示工程的原则(2)"
+                                             },
+                                             {
+                                                 "id":  "4.4",
+                                                 "name":  "推理模型提示词技巧"
+                                             },
+                                             {
+                                                 "id":  "4.5",
+                                                 "name":  "金融行业动态方向评估项目一项目及任务介绍"
+                                             },
+                                             {
+                                                 "id":  "4.6",
+                                                 "name":  "ChatGLM3-6B本地部署及使用"
+                                             },
+                                             {
+                                                 "id":  "4.7",
+                                                 "name":  "DeepseekR1-7B本地部署及使用"
+                                             },
+                                             {
+                                                 "id":  "4.8",
+                                                 "name":  "Zero shot与Few shot技术回顾"
+                                             },
+                                             {
+                                                 "id":  "4.9",
+                                                 "name":  "LLM实现金融文本分类一任务介绍"
+                                             },
+                                             {
+                                                 "id":  "4.10",
+                                                 "name":  "LLM实现金融文本分类-Prompt设计"
+                                             },
+                                             {
+                                                 "id":  "4.11",
+                                                 "name":  "LLM实现金融文本分类-模型推理"
+                                             },
+                                             {
+                                                 "id":  "4.12",
+                                                 "name":  "LLM实现金融文本信息收取-Prompt设计"
+                                             },
+                                             {
+                                                 "id":  "4.13",
+                                                 "name":  "LLM实现金融文本信息收取一模型推理与后处理"
+                                             },
+                                             {
+                                                 "id":  "4.14",
+                                                 "name":  "LLM实现金融文本匹配-Prompt设计"
+                                             },
+                                             {
+                                                 "id":  "4.15",
+                                                 "name":  "LLM实现金融文本匹配-模型推理"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  5,
+                             "chapterName":  "大模型微调主要方式",
+                             "lessonCount":  10,
+                             "lessons":  [
+                                             {
+                                                 "id":  "5.1",
+                                                 "name":  "NLP任务的四种范式"
+                                             },
+                                             {
+                                                 "id":  "5.2",
+                                                 "name":  "Prompt Tuning提示微调的定义"
+                                             },
+                                             {
+                                                 "id":  "5.3",
+                                                 "name":  "PET模型"
+                                             },
+                                             {
+                                                 "id":  "5.4",
+                                                 "name":  "Hard Prompt与Soft Prompt"
+                                             },
+                                             {
+                                                 "id":  "5.5",
+                                                 "name":  "p-Tuning"
+                                             },
+                                             {
+                                                 "id":  "5.6",
+                                                 "name":  "PPT(Pre-trained Prompt Tuning)"
+                                             },
+                                             {
+                                                 "id":  "5.7",
+                                                 "name":  "指令学习和思维链"
+                                             },
+                                             {
+                                                 "id":  "5.8",
+                                                 "name":  "Prefix-Tuning"
+                                             },
+                                             {
+                                                 "id":  "5.9",
+                                                 "name":  "Adapter-Tuning"
+                                             },
+                                             {
+                                                 "id":  "5.10",
+                                                 "name":  "LORA与QLORA"
+                                             }
+                                         ]
+                         },
+                         {
+                             "chapterId":  6,
+                             "chapterName":  "云GPU服务器的使用",
+                             "lessonCount":  8,
+                             "lessons":  [
+                                             {
+                                                 "id":  "6.1",
+                                                 "name":  "驱动云的使用"
+                                             },
+                                             {
+                                                 "id":  "6.2",
+                                                 "name":  "部署猫狗识别模型"
+                                             },
+                                             {
+                                                 "id":  "6.3",
+                                                 "name":  "体验一键提交分布式训练"
+                                             },
+                                             {
+                                                 "id":  "6.4",
+                                                 "name":  "部署语音大模型ChatTTS推理服务"
+                                             },
+                                             {
+                                                 "id":  "6.5",
+                                                 "name":  "yolov8监控交通流（1）"
+                                             },
+                                             {
+                                                 "id":  "6.6",
+                                                 "name":  "yolov8监控交通流（2）"
+                                             },
+                                             {
+                                                 "id":  "6.7",
+                                                 "name":  "部署ChatGLM3-6B大模型"
+                                             },
+                                             {
+                                                 "id":  "6.8",
+                                                 "name":  "克隆部署Stable_Diffusion文生图大模型"
+                                             }
+                                         ]
+                         }
+                     ]
+    }
+]

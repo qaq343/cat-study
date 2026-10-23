@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import { learningDays, learningTotals, learningRecords } from '../js/learning-records.js';
+const progress = { history: [{ recordId: 'course1', lessonId: 'one', endedAt: '2026-10-13T10:00:00+08:00', durationSeconds: 120 }] };
+const practice = { history: [{ id: 'exercise1', title: 'Python', startedAt: '2026-10-13T23:59:00+08:00', endedAt: '2026-10-14T00:01:00+08:00', elapsedMs: 120000, dailyMs: { '2026-10-13': 60000, '2026-10-14': 60000 } }], active: { id: 'exercise2', title: 'SQL', state: 'PAUSED', startedAt: '2026-10-14T09:00:00+08:00', elapsedMs: 180000, dailyMs: { '2026-10-14': 180000 } } };
+const before = JSON.stringify({ progress, practice });
+assert.deepEqual(learningTotals(progress, practice), { courseMs: 120000, practiceMs: 300000, totalMs: 420000 });
+const days = learningDays(progress, practice);
+assert.equal(days[0].date, '2026-10-14');
+assert.equal(days[0].completedLessons, 0, '只有练习的日期也展示，完成节数不增加');
+assert.equal(days[0].practiceCount, 2);
+assert.equal(days[0].totalMs, 240000);
+assert.equal(days[1].completedLessons, 1);
+assert.equal(days[1].totalMs, 180000);
+assert.equal(days.reduce((sum, day) => sum + day.totalMs, 0), learningTotals(progress, practice).totalMs, '跨天、进行中记录均不重复累计');
+assert.equal(learningRecords(progress, practice).find(entry => entry.id === 'exercise1' && entry.date === '2026-10-14').time, null, '跨日实际开始时刻未知，不伪造00:00');
+assert.equal(JSON.stringify({ progress, practice }), before, '聚合展示不写回或迁移数据');
+console.log('✓ 课程＋练习合计、仅练习日期、未结束累计、跨日不重计、完成节数不增加及原记录只读通过');

@@ -1,0 +1,26 @@
+:root{color-scheme:light}
+*{box-sizing:border-box}
+html,body{width:100%;height:100%;margin:0;background:transparent!important;overflow:hidden;user-select:none;-webkit-user-select:none}
+body{position:relative}
+.cat{position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;border:0;background:transparent;cursor:grab;overflow:hidden;outline:0;touch-action:none}
+.cat:active,.cat.dragging{cursor:grabbing}
+.cat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:right center;opacity:1!important;filter:drop-shadow(-3px 5px 5px rgba(65,43,27,.14));pointer-events:none}
+body[data-edge="left"] .cat img{transform:scaleX(-1);object-position:right center;filter:drop-shadow(3px 5px 5px rgba(65,43,27,.14))}
+/* The side rest artwork has a much tighter transparent canvas than the idle artwork
+   (about 94% vs 54% visible width). Scale only that state so the cat body stays
+   visually consistent when study is paused or stopped. */
+body[data-edge="right"][data-session="PAUSED"] .cat img{transform:scale(.64);transform-origin:right center}
+body[data-edge="left"][data-session="PAUSED"] .cat img{transform:scaleX(-1) scale(.64);transform-origin:left center}
+body[data-edge="top"] .cat img,body[data-edge="bottom"] .cat img{object-fit:contain;object-position:center center;transform:scale(.72);filter:none}
+body[data-edge="top"] .cat img{transform-origin:center top}
+body[data-edge="bottom"] .cat img{transform-origin:center bottom}
+.companion-controls{position:absolute;z-index:4;display:flex;gap:3px;opacity:0;pointer-events:none;transition:opacity .12s ease}
+body:hover .companion-controls,.companion-controls:focus-within{opacity:1;pointer-events:auto}
+body[data-edge="right"] .companion-controls{left:2px;top:3px}
+body[data-edge="left"] .companion-controls{right:2px;top:3px}
+body[data-edge="top"] .companion-controls{right:3px;bottom:2px}
+body[data-edge="bottom"] .companion-controls{right:3px;top:2px}
+.companion-controls button{display:grid;place-items:center;width:22px;height:22px;padding:0;border:1px solid rgba(117,83,49,.18);border-radius:50%;background:rgba(255,250,242,.86);color:#684a30;font:12px/1 "Microsoft YaHei UI",sans-serif;box-shadow:0 2px 8px rgba(67,46,28,.12);cursor:pointer}
+.companion-controls button:hover{background:#fff}
+.companion-controls button[hidden]{display:none}
+@media(prefers-reduced-motion:reduce){.companion-controls{transition-duration:.01ms!important}}

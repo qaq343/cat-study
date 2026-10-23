@@ -1,0 +1,68 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { createInitialProgress, dateKey, metrics, pauseSession, predictions, setLessonCompleted, startSession, STORAGE_KEY, updateHistoryDuration } from '../js/core.js';
+import { NOTES_KEY, readLessonNotes, setCourseCompleted } from '../js/course-navigation.js';
+import { learningDays, learningRecords, learningTotals, recordDurationLabel } from '../js/learning-records.js';
+
+const courses = JSON.parse(await readFile(new URL('../data/courses.json', import.meta.url), 'utf8'));
+const now = new Date('2026-10-15T10:00:00+08:00');
+const make = () => createInitialProgress(courses, new Date('2026-08-13T09:00:00+08:00'));
+const progress = make(), key = progress.currentLessonId, initialCount = progress.completedLessonIds.length;
+assert.equal(setLessonCompleted(progress, courses, key, true, now).completed, true);
+assert.equal(metrics(progress, courses, now).completed, initialCount + 1);
+assert.equal(metrics(progress, courses, now).todayCompleted, 1);
+assert.equal(predictions(progress, courses, now).actualRate, 1 / 7);
+assert.equal(progress.history.length, 1);
+assert.equal(progress.history[0].startedAt, null, '没有计时，不伪造开始时间');
+assert.equal(progress.history[0].durationSeconds, 0);
+assert.equal(progress.history[0].endedAt, now.toISOString());
+assert.equal(recordDurationLabel(learningRecords(progress, null)[0]), '未计时');
+assert.equal(learningDays(progress, null)[0].completedLessons, 1);
+assert.equal(learningTotals(progress, null).totalMs, 0);
+const once = JSON.stringify(progress);
+assert.equal(setLessonCompleted(progress, courses, key, true, now).changed, false);
+assert.equal(JSON.stringify(progress), once, '重复提交完全幂等');
+setLessonCompleted(progress, courses, key, false, now);
+assert.equal(progress.history.length, 0);
+assert.equal(metrics(progress, courses, now).todayCompleted, 0);
+setLessonCompleted(progress, courses, key, true, now);
+assert.equal(progress.history.length, 1, '取消后重勾只留一条');
+assert.equal(metrics(progress, courses, now).todayCompleted, 1);
+updateHistoryDuration(progress, progress.history[0].recordId, 5, now);
+assert.equal(recordDurationLabel(learningRecords(progress, null)[0]), '5 分钟');
+setLessonCompleted(progress, courses, key, false, now);
+assert.equal(progress.history.length, 1, '用户手动补录的有效时长不删除');
+setLessonCompleted(progress, courses, key, true, now);
+assert.equal(progress.history.length, 1, '已有当天真实记录不重复');
+assert.equal(progress.dailyRecords[dateKey(now)].sessions.length, 1);
+
+const timed = make();
+startSession(timed, now); pauseSession(timed, new Date(+now + 60000));
+setLessonCompleted(timed, courses, key, true, new Date(+now + 3660000));
+assert.equal(timed.history[0].durationSeconds, 60, '已有计时用实际有效时长，暂停不算');
+assert.equal(timed.activeSession, null);
+assert.equal(timed.currentLessonId, key, '保持原课程树选择行为，不擅自跳课');
+const other = make(); startSession(other, now);
+const oldActive = JSON.stringify(other.activeSession);
+setLessonCompleted(other, courses, '9:2:2.1', true, now);
+assert.equal(JSON.stringify(other.activeSession), oldActive, '完成其他课不影响当前计时');
+
+const historical = make();
+setLessonCompleted(historical, courses, key, true, new Date(+now - 86400000));
+const yesterday = JSON.stringify(historical.history);
+setLessonCompleted(historical, courses, key, false, now);
+assert.equal(JSON.stringify(historical.history), yesterday, '不删除以前日期的记录');
+
+function store(initial = {}) { const map = new Map(Object.entries(initial)); return { getItem: k => map.get(k) ?? null, setItem: (k, v) => map.set(k, v) }; }
+const parked = make(), storage = store({ [NOTES_KEY]: JSON.stringify({ version: 1, lessons: { [key]: { note: '保留备注', savedSession: { lessonId: key, startedAt: now.toISOString(), state: 'PAUSED', activeElapsedMs: 95000 } } } }) });
+setCourseCompleted(parked, courses, storage, key, true, now);
+assert.equal(parked.history[0].durationSeconds, 95, '暂存的实际计时不丢失');
+assert.equal(readLessonNotes(storage).lessons[key].savedSession, null);
+assert.equal(readLessonNotes(storage).lessons[key].note, '保留备注');
+assert.deepEqual(JSON.parse(storage.getItem(STORAGE_KEY)), parked);
+const blocked = make(), blockedBefore = JSON.stringify(blocked), broken = store();
+broken.setItem = () => { throw new Error('quota'); };
+assert.throws(() => setCourseCompleted(blocked, courses, broken, key, true, now), /quota/);
+assert.equal(JSON.stringify(blocked), blockedBefore, '保存失败不伪报完成或改内存进度');
+assert.throws(() => setLessonCompleted(blocked, courses, 'invalid', true, now));
+console.log('✓ 未计时完成同步今日/足迹/最近7日、重复防护、撤销重勾、手动补时、旧记录保护、已有及暂存计时、写入失败保护通过');
